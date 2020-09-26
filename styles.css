@@ -1,9 +1,22 @@
 body{
-    background:lightblue;
+    background:lightslategray;
     font-family:'Gill Sans MT', 'Calibri', sans-serif;
 }
 
+.assignment{
+    display:flex;
+    padding:10px;
+    margin:10px;
+    background:lightgreen;
+}
+
+.assignment img{
+    padding:10px;
+    width:150px;
+    height:150px;
+}
+
 h1{
-    color:cadetblue;
+    color:lightgreen;
     text-align:center;
 }
