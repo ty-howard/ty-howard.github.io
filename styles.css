@@ -1,5 +1,5 @@
 body{
-    background:lightslategray;
+    background: #B29271;
     font-family:'Gill Sans MT', 'Calibri', sans-serif;
 }
 
@@ -7,7 +7,7 @@ body{
     display:flex;
     padding:10px;
     margin:10px;
-    background:lightgreen;
+    background:#FFFFCC;
 }
 
 .assignment img{
@@ -17,6 +17,11 @@ body{
 }
 
 h1{
-    color:lightgreen;
+    color: #592316;
     text-align:center;
+}
+
+a{
+    text-decoration: none;
+    color: #592316;
 }
