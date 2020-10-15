@@ -7,13 +7,17 @@ body{
     display:flex;
     padding:10px;
     margin:10px;
+    margin-bottom: 30px;
     background:#FFFFCC;
+    border-radius:15px;
+    box-shadow: 8px 10px #592316;
 }
 
 .assignment img{
     padding:10px;
     width:150px;
     height:150px;
+    border-radius: 20px;
 }
 
 h1{
@@ -24,4 +28,12 @@ h1{
 a{
     text-decoration: none;
     color: #592316;
+}
+
+.assignment a:hover {
+    color:tan;
+}
+
+.assignment img:hover {
+    box-shadow: 0 4px 16px 0 #592316;
 }
