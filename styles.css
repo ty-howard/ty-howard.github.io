@@ -3,8 +3,12 @@ body{
     font-family:'Gill Sans MT', 'Calibri', sans-serif;
 }
 
-.assignment{
+.assignments{
     display:flex;
+    flex-wrap:wrap;
+}
+.assignment{
+    width:21%;
     padding:10px;
     margin:10px;
     margin-bottom: 30px;
@@ -18,6 +22,8 @@ body{
     width:150px;
     height:150px;
     border-radius: 20px;
+    display:block;
+    margin:auto;
 }
 
 h1{
